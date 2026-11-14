@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Fresh Look at Your Home Sale | Frank Giacomelli, Listing Broker</title>
+<!--
+  SELLER LEAD GENERATION ENGINE — filled TN variant, 2026-11-14.
+  Brand: Frank Giacomelli, Listing Broker (TN). Identity/contact/license/booking filled with Frank's approved
+  fill-ins (2026-10-15). Still pending before launch: video embed (YouTube unlisted
+  upload) and the form endpoint — both clearly marked in the body. Do not publish
+  until both are in and a test submission + test booking pass.
+-->
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1f2a37; line-height: 1.6; background: #f4f7fb;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  .topbar { background:#0f2a4a; color:#fff; padding:12px 0; font-size:15px; }
+  .topbar .wrap { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px; }
+  .topbar .brand { font-weight:700; letter-spacing:.3px; }
+  .topbar a { color:#cfe0f5; text-decoration:none; font-weight:600; }
+  .topbar a:hover { text-decoration:underline; }
+  .hero { background: linear-gradient(160deg, #123a68 0%, #1b4f8a 70%, #2563b8 100%); color:#fff; padding:52px 0 44px; text-align:center; }
+  .hero h1 { font-size:30px; line-height:1.25; font-weight:800; margin-bottom:14px; }
+  .hero p.sub { font-size:18px; color:#dbe7f7; max-width:560px; margin:0 auto 26px; }
+  .btn {
+    display:inline-block; background:#f59e0b; color:#1f2a37; font-weight:800; font-size:17px;
+    padding:15px 34px; border-radius:8px; text-decoration:none; border:none; cursor:pointer;
+    box-shadow:0 4px 14px rgba(0,0,0,.18);
+  }
+  .btn:hover { background:#e8930a; }
+  .btn-secondary { background:transparent; color:#fff; border:2px solid #fff; box-shadow:none; margin-top:12px; }
+  .btn-secondary:hover { background:rgba(255,255,255,.12); }
+  .hero-note { margin-top:16px; font-size:14px; color:#c7d8ef; }
+  section.block { background:#fff; border-radius:12px; padding:32px 28px; margin:28px 0; box-shadow:0 2px 10px rgba(15,42,74,.07); }
+  section.block h2 { font-size:22px; color:#0f2a4a; margin-bottom:12px; }
+  section.block p, section.block li { font-size:16px; }
+  .relevance { background:#e8f1fd; border-left:5px solid #2563b8; }
+  .relevance p { font-size:16px; color:#123a68; }
+  .relevance strong { color:#0f2a4a; }
+  .video-frame { position:relative; width:100%; padding-top:56.25%; background:#0b1e36; border-radius:10px; overflow:hidden; }
+  .video-frame iframe, .video-frame .video-fallback { position:absolute; top:0; left:0; width:100%; height:100%; border:0; }
+  .video-fallback {
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    color:#fff; text-align:center; padding:20px; text-decoration:none; background:#0b1e36;
+  }
+  .video-fallback .play {
+    width:72px; height:72px; border-radius:50%; background:#f59e0b; color:#1f2a37;
+    font-size:28px; line-height:72px; text-align:center; margin-bottom:14px; font-weight:800;
+  }
+  .video-desc { margin-top:14px; font-size:15px; color:#4b5b70; }
+  .offer ul { list-style:none; margin-top:10px; }
+  .offer li { padding:8px 0 8px 30px; position:relative; }
+  .offer li::before { content:"✓"; position:absolute; left:0; color:#2563b8; font-weight:800; font-size:18px; }
+  form.lead-form label { display:block; font-weight:700; font-size:15px; margin:16px 0 6px; color:#0f2a4a; }
+  form.lead-form input[type="text"], form.lead-form input[type="email"],
+  form.lead-form input[type="tel"], form.lead-form select {
+    width:100%; padding:13px 14px; font-size:16px; border:2px solid #c9d6e8; border-radius:8px; background:#fbfdff;
+  }
+  form.lead-form input:focus, form.lead-form select:focus { outline:none; border-color:#2563b8; }
+  .optional { font-weight:400; color:#6b7c93; font-size:13px; }
+  .form-submit { width:100%; margin-top:22px; }
+  .privacy-note { font-size:13px; color:#6b7c93; margin-top:12px; text-align:center; }
+  .calendar-cta { text-align:center; background: linear-gradient(160deg, #123a68, #1b4f8a); color:#fff; }
+  .calendar-cta h2 { color:#fff; }
+  .calendar-cta p { color:#dbe7f7; margin-bottom:20px; }
+  .faq-item { border-bottom:1px solid #e3eaf4; padding:14px 0; }
+  .faq-item:last-child { border-bottom:none; }
+  .faq-item h3 { font-size:16px; color:#0f2a4a; margin-bottom:6px; }
+  .faq-item p { font-size:15px; color:#4b5b70; }
+  footer { background:#0f2a4a; color:#a9bed8; padding:30px 0 40px; font-size:14px; text-align:center; }
+  footer p { margin:6px 0; }
+  footer a { color:#cfe0f5; }
+  @media (max-width:520px) {
+    .hero { padding:40px 0 34px; }
+    .hero h1 { font-size:25px; }
+    .hero p.sub { font-size:16px; }
+    section.block { padding:24px 20px; }
+    .btn { width:100%; padding:15px 10px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="brand">Frank Giacomelli, Listing Broker</span>
+    <a href="tel:+16158018017">615-801-8017</a>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Your home didn't sell last time. Here's what could be different now.</h1>
+    <p class="sub">A short video from Frank on why some listings stall — and what the market is doing today in your neighborhood.</p>
+    <a class="btn" href="https://CallWithFrank.com">Book a Free Listing Review Call</a><br>
+    <a class="btn btn-secondary" href="#watch">Watch the Video First</a>
+    <p class="hero-note">No pressure, no obligation — just an honest second look.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="block" id="watch">
+    <h2>Watch: Why Good Homes Sometimes Don't Sell</h2>
+    <video controls preload="none" playsinline poster="tier-1-tn-poster.jpg" style="width:100%;height:auto;border-radius:10px;"><source src="tier-1-tn.mp4" type="video/mp4"></video>
+    <p class="video-desc">In this 3-minute video, Frank walks through the three most common reasons listings expire — price position, presentation, and exposure — and how the market in the Nashville area has shifted since your home was last listed.</p>
+  </section>
+
+  <section class="block relevance">
+    <p><strong>Why you're seeing this page:</strong> Your home was listed for sale some months ago and didn't sell before the listing ended. I'm reaching out to homeowners in that exact situation — not with a sales pitch, but with a fresh look at what may have gone wrong and what today's market looks like.</p>
+  </section>
+
+  <section class="block offer">
+    <h2>Free Expired-Listing Review</h2>
+    <p>Before you decide whether to try again — with me or anyone else — get a clear, honest review of your last listing. I'll show you what I see, in plain language:</p>
+    <ul>
+      <li>What may have held your home back last time: price, photos, exposure, or timing</li>
+      <li>What comparable homes in your area have sold for since your listing ended</li>
+      <li>Three specific changes that would give a relist its best shot</li>
+    </ul>
+  </section>
+
+  <section class="block" id="form">
+    <h2>Get Your Free Listing Review</h2>
+    <p>Fill this out and I'll personally pull your home's history and the latest neighborhood numbers — then reach out how you prefer.</p>
+    <!-- Form handler: FormSubmit — submissions are emailed to frankgiacomelli@sellnashvillenow.com. (First real submission triggers a one-time FormSubmit activation email to that inbox; its link must be clicked once before submissions flow.) -->
+    <form class="lead-form" action="https://formsubmit.co/frankgiacomelli@sellnashvillenow.com" method="POST">
+      <input type="hidden" name="_subject" value="New seller lead — Tier 1 (TN) — sellnashvillenow.com">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" style="display:none">
+      <label for="name">Full name</label>
+      <input type="text" id="name" name="name" required autocomplete="name" placeholder="Jane Smith">
+
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" required autocomplete="email" placeholder="jane@example.com">
+
+      <label for="phone">Phone <span class="optional">(optional)</span></label>
+      <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 123-4567">
+
+      <label for="address">Property address</label>
+      <input type="text" id="address" name="property_address" required autocomplete="street-address" placeholder="123 Main St, City, ST 00000">
+
+      <label for="contact_method">Preferred contact method</label>
+      <select id="contact_method" name="preferred_contact_method">
+        <option value="email">Email</option>
+        <option value="phone">Phone call</option>
+        <option value="text">Text message</option>
+      </select>
+
+      <input type="hidden" name="utm_campaign" id="f_utm_campaign" value="tier1-aged-expired-tn-2026">
+      <input type="hidden" name="tier" value="tier-1-aged-expired">
+      <input type="hidden" name="zip" id="f_zip" value="">
+
+      <button class="btn form-submit" type="submit">Send Me My Free Review</button>
+    </form>
+    <p class="privacy-note">Your info stays with us — never sold, never spammed.</p>
+  </section>
+
+  <section class="block calendar-cta">
+    <h2>Prefer to just talk?</h2>
+    <p>Pick a time that works for you and we'll walk through your options together — 15 minutes, no strings attached.</p>
+    <a class="btn" href="https://CallWithFrank.com">Choose a Time to Talk</a>
+  </section>
+
+  <section class="block">
+    <h2>Quick answers</h2>
+    <div class="faq-item">
+      <h3>Is this really free?</h3>
+      <p>Yes. The review costs nothing and there's no obligation to list with me. My goal is simply to give you useful information about your home and your market.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Will you just tell me to lower the price?</h3>
+      <p>No. Price is only one piece. I'll look at presentation, exposure, and timing too — and I'll show you the actual comparable sales so you can judge for yourself.</p>
+    </div>
+    <div class="faq-item">
+      <h3>I wasn't happy with my last agent. Why would this be different?</h3>
+      <p>That's exactly why a second opinion helps. You'll get a fresh set of eyes on the numbers and the marketing — then you decide what to do next.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong style="color:#fff;">Frank Giacomelli, Listing Broker</strong></p>
+    <p>Frank Giacomelli &nbsp;|&nbsp; <a href="tel:+16158018017">615-801-8017</a> &nbsp;|&nbsp; <a href="mailto:frank@sellnashvillenow.com">frank@sellnashvillenow.com</a></p>
+    <p>TN Real Estate License # 373488 | Frank Giacomelli, Listing Broker</p>
+    <p>117 Seaboard Lane, Franklin, TN 37067</p>
+    <p>We respect your privacy. Your information is only used to respond to your request.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  try {
+    var params = new URLSearchParams(window.location.search);
+    var map = { utm_campaign: "f_utm_campaign", zip: "f_zip" };
+    Object.keys(map).forEach(function (key) {
+      var val = params.get(key);
+      if (val) document.getElementById(map[key]).value = val;
+    });
+  } catch (e) { /* keep defaults */ }
+})();
+</script>
+
+</body>
+</html>
